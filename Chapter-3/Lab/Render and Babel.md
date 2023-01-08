@@ -13,7 +13,7 @@ const Container = () => {
     <div>
       {heading1}     ---------> this is adding jsx element inside component
       <Heading2 />   ---------> this is adding component inside component
-      {Heading2()}
+      {Heading2()}   ----------> as component is function so we can call like this
     </div>
   );
 };
@@ -35,3 +35,8 @@ https://babeljs.io/  check here
 **composing Component**
 
 this is procedure like --> passing components inside of component
+
+
+is functional component hoisted?
+yes
+
